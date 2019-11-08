@@ -1,0 +1,44 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #040919;
+    width: 100%;
+    }
+    
+    table {
+    max-width: 960px;
+    margin: 10px auto;
+    }
+    
+    caption {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 10px 0;
+    }
+    
+    thead th {
+    font-weight: 400;
+    background: #040919;
+    color: #FFF;
+    }
+    
+    tr {
+    background: #cfdaff;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+    }
+    
+    tr:nth-child(even) {
+    background: #b4c5ff;
+    }
+    
+    th, td {
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+    }
