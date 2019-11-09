@@ -98,14 +98,14 @@
                         <h4>(28-29 Dec, 2019)</h4>
                   <center><section>
                     <style>@media(width: 768px){.section-header h2{font-size:'20px'}}</style>
-<!--                       <div class="con">
+                      <div class="con">
                           <h1 id="head"></h1>
-                          <ul>
+                         <center> <ul>
                             <li class="timer"><span id="days"></span>days</li>
                             <li class="timer"><span id="hours"></span>Hours</li>
                             <li class="timer"><span id="minutes"></span>Minutes</li>
                             <li class="timer"><span id="seconds"></span>Seconds</li>
-                          </ul>
+                          </ul> </center>
                         </div>
                         <style>
         
@@ -127,8 +127,18 @@
                             font-size: 2rem;
                           }
                           
-                          @media(max-width:'767px'){.timer{display:'none';}}
-                          </style> -->
+                          @media(max-width:767px){
+                            .timer{
+                              /* width: 100%; */
+                              font-size: 8px;
+                              /* margin-right:1em; */
+                            }
+                            .section-header::before{
+                              bottom: -15px;
+                          
+                            }
+                          }
+                          </style>
                   </section></center>
                   
               
